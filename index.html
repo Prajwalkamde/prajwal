@@ -1,377 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>Prajwal's Portfolio - Python Developer and Django Expert</title>
-    <meta
-      content="Explore Prajwal's professional portfolio. Python developer specializing in Django, DRF, HTML, CSS, and Bootstrap. Discover projects, certificates, and contact information."
-      name="description"
-    />
-    <meta
-      content="Prajwal, portfolio, Python developer, Django expert, DRF, HTML, CSS, Bootstrap, web development, software development, projects, certificates, contact, skills, front-end development, prajwal pandhurna, prajwal indore, sdmipl"
-      name="keywords"
-    />
-     <!-- Favicons -->
-    <!-- <link href="assets/img/favicon-32x32.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" /> -->
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
-    <link rel="manifest" href="assets/img/site.webmanifest">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Prajwal Kamde's Portfolio | Python Developer</title>
 
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+  <meta content="Explore Prajwal's professional portfolio. Python developer specializing in Django, DRF, HTML, CSS, and Bootstrap. Discover projects, certificates, and contact information." name="description" />
+  <meta content="Prajwal Kamde, Prajwal Kamde Portfolio, Prajwal Python Developer, Django , Django Rest Framework (DRF), HTML, CSS, Bootstrap, web development, software development, projects, certificates, contact, skills, front-end development, prajwal pandhurna, prajwal indore, sdmipl" name="keywords" />
+  <meta name="author" content="Prajwal Kamde">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://prajwalkamde.github.io/prajwal/">
 
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prajwal Kamde's Portfolio | Python Developer">
+  <meta property="og:description" content="Explore Prajwal's professional portfolio. Python developer specializing in Django, DRF, HTML, CSS, and Bootstrap. Discover projects, certificates, and contact information.">
+  <meta property="og:image" content="https://prajwalkamde.github.io/prajwal/assets/img/profile_facebook.jpg">
+  <meta property="og:url" content="https://prajwalkamde.github.io/prajwal/">
+  <meta property="og:site_name" content="Prajwal Kamde's Portfolio">
 
-    <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
-  </head>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prajwal Kamde's Portfolio | Python Developer">
+  <meta name="twitter:description" content="Explore Prajwal's professional portfolio. Python developer specializing in Django, DRF, HTML, CSS, and Bootstrap. Discover projects, certificates, and contact information.">
+  <meta name="twitter:image" content="https://prajwalkamde.github.io/prajwal/assets/img/profile_twitter.jpg">
+  <meta name="twitter:site" content="@prajwalkamde45">
+  <meta name="twitter:creator" content="@prajwalkamde45">
+  <link rel="canonical" href="https://prajwalkamde.github.io/prajwal/">
 
-  <body class="index-page">
-    <header id="header" class="header d-flex align-items-center sticky-top">
-      <div
-        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
-      >
-        <a href="index.html" class="logo d-flex align-items-center">
-          <h1 class="sitename">Prajwal.</h1>
-        </a>
+  <!-- Schema.org Markup for Google+ -->
+  <meta itemprop="name" content="Prajwal Kamde's Portfolio | Python Developer">
+  <meta itemprop="description" content="Explore Prajwal's professional portfolio. Python developer specializing in Django, DRF, HTML, CSS, and Bootstrap. Discover projects, certificates, and contact information.">
+  <meta itemprop="image" content="https://prajwalkamde.github.io/prajwal/assets/img/profile.jpg">
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li>
-              <a href="#hero" class="active">Home<br /></a>
-            </li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Certificate</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li class="dropdown">
-              <a href="#"
-                ><span>Blog</span>
-                <i class="bi bi-chevron-down toggle-dropdown"></i
-              ></a>
-              <ul>
-                <li><a href="#">Category 1</a></li>
-                <li class="dropdown">
-                  <a href="#"
-                    ><span>Category 2</span>
-                    <i class="bi bi-chevron-down toggle-dropdown"></i
-                  ></a>
-                  <ul>
-                    <li><a href="#">Category 2 Blog</a></li>
-                    <li><a href="#">Category 2 Blog</a></li>
-                    <li><a href="#">Category 2 Blog</a></li>
-                    <li><a href="#">Category 2 Blog</a></li>
-                    <li><a href="#">Category 2 Blog</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Category 3</a></li>
-                <li><a href="#">Category 4</a></li>
-                <li><a href="#">Category 5</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+  <!-- Favicons -->
+   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/site.webmanifest">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/lightbox.min.css">
+</head>
+
+<body class="index-page">
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Prajwal.</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li>
+            <a href="#hero" class="active">Home<br /></a>
+          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Certificate</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <!-- <li class="dropdown">
+            <a href="#"><span>Blog</span>
+              <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Category 1</a></li>
+              <li class="dropdown">
+                <a href="#"><span>Category 2</span>
+                  <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Category 2 Blog</a></li>
+                  <li><a href="#">Category 2 Blog</a></li>
+                  <li><a href="#">Category 2 Blog</a></li>
+                  <li><a href="#">Category 2 Blog</a></li>
+                  <li><a href="#">Category 2 Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Category 3</a></li>
+              <li><a href="#">Category 4</a></li>
+              <li><a href="#">Category 5</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <img src="assets/img/h3.png" alt="" data-aos="fade-in" />
+      <div class="container d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-up"
+        data-aos-delay="100">
+        <h2>I am Prajwal Kamde</h2>
+        <p>
+          <span class="typed" data-typed-items="Python Developer, Django Developer, Full Stack Developer"
+            style="color: #FD6F0D;"></span>
+        </p>
       </div>
-    </header>
-  
+    </section>
+    <!-- /Hero Section -->
 
-
-
-    <main class="main">
-      <!-- Hero Section -->
-      <section id="hero" class="hero section">
-        <img src="assets/img/h3.png" alt="" data-aos="fade-in" />
-        <div
-          class="container d-flex flex-column align-items-center justify-content-center text-center"
-          data-aos="fade-up"
-          data-aos-delay="100"
-        >
-          <h2>I am Prajwal Kamde</h2>
-          <p>
-            <span
-              class="typed"
-              data-typed-items="Python Developer, Django Developer, Full Stack Developer"
-              style="color: #FD6F0D;"
-            ></span>
-          </p>
-        </div>
-      </section>
-      <!-- /Hero Section -->
-
-      <!-- About Section -->
-      <section id="about" class="about section">
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="row gy-4">
-            <div class="col-md-6">
-              <div class="row justify-content-between gy-4">
-                <div class="col-lg-5">
-                  <img
-                    src="assets/img/profile.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                </div>
-                <div class="col-lg-7 about-info">
-                  <p><strong>Name: </strong> <span>Prajwal Kamde</span></p>
-                  <p>
-                    <strong>Profile: </strong> <span>Python Developer</span>
-                  </p>
-                  <p>
-                    <strong>Email: </strong>
-                    <span>prajwalkamde264@gmail.com</span>
-                  </p>
-                  <p><strong>Phone: </strong> <span>+91 8878627262</span></p>
-                </div>
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-md-6">
+            <div class="row justify-content-between gy-4">
+              <div class="col-lg-5">
+                <img src="assets/img/profile.jpg" class="img-fluid" alt="" />
               </div>
-
-              <div class="skills-content skills-animation">
-                <h5>Skills</h5>
-
-                <div class="progress">
-                  <span class="skill"
-                    ><span>Python</span> <i class="val">70%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="70"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <!-- End Skills Item -->
-                <div class="progress">
-                  <span class="skill"
-                    ><span>Django</span> <i class="val">80%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="70"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                
-                <!-- End Skills Item -->
-                <div class="progress">
-                  <span class="skill"
-                    ><span>Django Rest Framework</span> <i class="val">65%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="70"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <!-- End Skills Item -->
-
-                <div class="progress">
-                  <span class="skill"
-                    ><span>HTML</span> <i class="val">80%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="80"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <!-- End Skills Item -->
-
-                <div class="progress">
-                  <span class="skill"
-                    ><span>CSS</span> <i class="val">75%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="75"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <!-- End Skills Item -->
-
-                <div class="progress">
-                  <span class="skill"
-                    ><span>JavaScript</span> <i class="val">40%</i></span
-                  >
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="40"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-                <!-- End Skills Item -->
-
-                
+              <div class="col-lg-7 about-info">
+                <p><strong>Name: </strong> <span>Prajwal Kamde</span></p>
+                <p>
+                  <strong>Profile: </strong> <span>Python Developer</span>
+                </p>
+                <p>
+                  <strong>Email: </strong>
+                  <span>prajwalkamde264@gmail.com</span>
+                </p>
+                <p><strong>Phone: </strong> <span>+91 8878627262</span></p>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="about-me">
-                <h4>About me</h4>
-                <p>
-                  Hi, I'm Prajwal Kamde ,A Python Full Stack Developer.I hold a
-                  BTech degree in Computer Science and Engineering from Rajiv
-                  Gandhi Proudyogiki Vishwavidyalaya (RGPV) University ,Bhopal
-                  with 8.09 CGPA where my passion for transforming ideas into
-                  digital solutions began to flourish. I am passionate about Web
-                  Developer, Python Developer and Django Developer. I am always
-                  eager to learn new technologies that will help to grow my
-                  career.
-                </p>
-                <p>
-                  Currently i am working as a Django Developer at Sion
-                  Datamatics India Pvt. Ltd (SDMIPL). I'm immersed in the world
-                  of coding. My skills encompass Python, Django, Django Rest
-                  Framework, HTML, and CSS, enabling me to navigate the full
-                  development spectrum and craft dynamic web applications.
-                </p>
-                <p>
-                  Let's connect and embark on a collaborative journey to turn
-                  your digital aspirations into reality. Together, we can shape
-                  and bring to life the solutions you envision.
-                </p>
+
+            <div class="skills-content skills-animation">
+              <h5>Skills</h5>
+
+              <div class="progress">
+                <span class="skill"><span>Python</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
               </div>
+              <!-- End Skills Item -->
+              <div class="progress">
+                <span class="skill"><span>Django</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Skills Item -->
+              <div class="progress">
+                <span class="skill"><span>Django Rest Framework</span> <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>HTML</span> <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>CSS</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+              <div class="progress">
+                <span class="skill"><span>Bootstrap</span> <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+              <!-- End Skills Item -->
+
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="about-me">
+              <h4>About me</h4>
+              <p>
+                Hi, I'm Prajwal Kamde ,A Python Full Stack Developer.I hold a
+                BTech degree in Computer Science and Engineering from <a href="https://www.rgpv.ac.in/">Rajiv
+                Gandhi Proudyogiki Vishwavidyalaya (RGPV) University ,Bhopal</a>
+                with 8.09 CGPA where my passion for transforming ideas into
+                digital solutions began to flourish. I am passionate about Web
+                Developer, Python Developer and Django Developer. I am always
+                eager to learn new technologies that will help to grow my
+                career.
+              </p>
+              <p>
+                Currently i am working as a Django Developer at <a href="https://www.sdmipl.com/">Sion
+                Datamatics India Pvt. Ltd (SDMIPL)</a>. I'm immersed in the world
+                of coding. My skills encompass Python, Django, Django Rest
+                Framework, HTML, and CSS, enabling me to navigate the full
+                development spectrum and craft dynamic web applications.
+              </p>
+              <p>
+                Let's connect and embark on a collaborative journey to turn
+                your digital aspirations into reality. Together, we can shape
+                and bring to life the solutions you envision.
+              </p>
             </div>
           </div>
         </div>
-      </section>
-      <!-- /About Section -->
+      </div>
+    </section>
+    <!-- /About Section -->
 
-      <!-- Resume Section -->
-      <section id="resume" class="resume section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Resume</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
+    <!-- Resume Section -->
+    <section id="resume" class="resume section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Resume</h2>
+        <!-- <p>
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p> -->
+      </div>
+      <!-- End Section Title -->
 
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Sumary</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Sumary</h3>
 
-              <div class="resume-item pb-0">
-                <h4>Prajwal Kamde</h4>
-                <p>
-                  <em
-                    >My objective is to attain position in a company which is optimal for personal growth along with organization
-                    objectives this include working in a team oriented environment as surrounding myself with like minded individual.</em
-                  >
-                </p>
-                <ul>
-                  <li>Indore, Madhya Pradesh, India</li>
-                  <li>+91 8878627262</li>
-                  <li>prajwalkamde264@gmail.com</li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
-
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
-                <h4>Bachelor Of Technology &amp; Computer Science Engineering</h4>
-                <h5>2019 - 2023</h5>
-                <p><em>RGPV University, Bhopal, India</em></p>
-                <p>
-                  CGPA : 8.09
-                </p>
-              </div>
-              <!-- Edn Resume Item -->
-
-              <div class="resume-item">
-                <h4>12th</h4>
-                <h5>2018 - 2019</h5>
-                <p><em>MP Board, Bhopal, Madhya Pradesh, India</em></p>
-                <p>
-                  81.4%
-                </p>
-              </div>
-              <!-- Edn Resume Item -->
-              <div class="resume-item">
-                <h4>10th</h4>
-                <h5>2016 - 2017</h5>
-                <p><em>MP Board, Bhopal, Madhya Pradesh, India</em></p>
-                <p>
-                  76.6%
-                </p>
-              </div>
-              <!-- Edn Resume Item -->
+            <div class="resume-item pb-0">
+              <h4>Prajwal Kamde</h4>
+              <p>
+                <em>My objective is to attain position in a company which is optimal for personal growth along with
+                  organization
+                  objectives this include working in a team oriented environment as surrounding myself with like minded
+                  individual.</em>
+              </p>
+              <ul>
+                <li>Indore, Madhya Pradesh, India</li>
+                <li>+91 8878627262</li>
+                <li>prajwalkamde264@gmail.com</li>
+              </ul>
             </div>
+            <!-- Edn Resume Item -->
 
-            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                <h4>Python Developer</h4>
-                <h5>Feb 2024 - Present</h5>
-                <p><em>Sion Datamatics India Pvt. Ltd., Indore </em></p>
-                <ul>
-                  <li>
-                     Worked on a live projects, focusing on real-time application performance and user experience
-                    using Python, Django and Django Rest Framework.
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor Of Technology &amp; Computer Science Engineering</h4>
+              <h5>2019 - 2023</h5>
+              <p><em>RGPV University, Bhopal, India</em></p>
+              <p>
+                CGPA : 8.09
+              </p>
+            </div>
+            <!-- Edn Resume Item -->
 
-                  </li>
-                  <li>
-                    Strong understanding of Django's Model-View-Template (MVT) architecture, ensuring clean and maintainable code.
-                  </li>
-                  <li>
-                    Proficient in Django REST framework, including serialization, authentication, and permissions to build secure and
-                    efficient APIs
-                  </li>
-                  <li>
-                    Actively collaborates with cross-functional teams to deliver scalable solutions.
-                  </li>
-                </ul>
-              </div>
-              <!-- Edn Resume Item -->
+            <div class="resume-item">
+              <h4>12th</h4>
+              <h5>2018 - 2019</h5>
+              <p><em>MP Board, Bhopal, Madhya Pradesh, India</em></p>
+              <p>
+                81.4%
+              </p>
+            </div>
+            <!-- Edn Resume Item -->
+            <div class="resume-item">
+              <h4>10th</h4>
+              <h5>2016 - 2017</h5>
+              <p><em>MP Board, Bhopal, Madhya Pradesh, India</em></p>
+              <p>
+                76.6%
+              </p>
+            </div>
+            <!-- Edn Resume Item -->
+          </div>
 
-              <!-- <div class="resume-item">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Python Developer</h4>
+              <h5>Feb 2024 - Present</h5>
+              <p><em>Sion Datamatics India Pvt. Ltd., Indore </em></p>
+              <ul>
+                <li>
+                  Worked on a live projects, focusing on real-time application performance and user experience
+                  using Python, Django and Django Rest Framework.
+
+                </li>
+                <li>
+                  Strong understanding of Django's Model-View-Template (MVT) architecture, ensuring clean and
+                  maintainable code.
+                </li>
+                <li>
+                  Proficient in Django REST framework, including serialization, authentication, and permissions to build
+                  secure and
+                  efficient APIs
+                </li>
+                <li>
+                  Actively collaborates with cross-functional teams to deliver scalable solutions.
+                </li>
+              </ul>
+            </div>
+            <!-- Edn Resume Item -->
+
+            <!-- <div class="resume-item">
                 <h4>Graphic design specialist</h4>
                 <h5>2017 - 2018</h5>
                 <p><em>Stepping Stone Advertising, New York, NY</em></p>
@@ -394,746 +348,448 @@
                   </li>
                 </ul>
               </div> -->
-              <!-- Edn Resume Item -->
-               
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- /Resume Section -->
+            <!-- Edn Resume Item -->
 
-
-<section id="certificate">
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Certificates</h2>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="gallery-item" data-aos="fade-up"
-            data-aos-delay="100">
-              <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240322101847/Default_An_illustration_depictin-(2)-660.jpg" alt="Image 1">
-              <div class="hover-label">Label 1</div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="gallery-item" data-aos="fade-up"
-            data-aos-delay="200">
-              <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240322101847/Default_An_illustration_depictin-(2)-660.jpg" alt="Image 2">
-              <div class="hover-label">Label 2</div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="gallery-item" data-aos="fade-up"
-            data-aos-delay="300">
-              <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240322101847/Default_An_illustration_depictin-(2)-660.jpg" alt="Image 3">
-              <div class="hover-label">Label 3</div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="gallery-item" data-aos="fade-up"
-            data-aos-delay="400">
-              <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240322101847/Default_An_illustration_depictin-(2)-660.jpg" alt="Image 4">
-              <div class="hover-label">Label 4</div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="gallery-item" data-aos="fade-up"
-            data-aos-delay="500">
-              <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240322101847/Default_An_illustration_depictin-(2)-660.jpg" alt="Image 5">
-              <div class="hover-label">Label 5</div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-4">
-            <div class="gallery-item"data-aos="fade-up"
-            data-aos-delay="600">
-              <img src="https://via.placeholder.com/350x250" alt="Image 6">
-              <div class="hover-label">Label 6</div>
-            </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- /Resume Section -->
 
-      <!-- Services Section -->
-      <section id="services" class="services section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Services</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
 
-        <div class="container">
-          <div class="row gy-4">
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-activity"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Nesciunt Mete</h3>
-                </a>
-                <p>
-                  Provident nihil minus qui consequatur non omnis maiores. Eos
-                  accusantium minus dolores iure perferendis tempore et
-                  consequatur.
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
 
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-broadcast"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Eosle Commodi</h3>
-                </a>
-                <p>
-                  Ut autem aut autem non a. Sint sint sit facilis nam iusto
-                  sint. Libero corrupti neque eum hic non ut nesciunt dolorem.
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
 
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-easel"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Ledo Markt</h3>
-                </a>
-                <p>
-                  Ut excepturi voluptatem nisi sed. Quidem fuga consequatur.
-                  Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.
-                </p>
-              </div>
-            </div>
-            <!-- End Service Item -->
+    <!-- Certificate Section -->
+    <section id="gallery" class="gallery section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certificates</h2>
+        <p>Beautiful images showcasing my work and achievements.</p>
+      </div>
+      <!-- End Section Title -->
 
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-bounding-box-circles"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Asperiores Commodit</h3>
-                </a>
-                <p>
-                  Non et temporibus minus omnis sed dolor esse consequatur.
-                  Cupiditate sed error ea fuga sit provident adipisci neque.
-                </p>
-                <a href="service-details.html" class="stretched-link"></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="500"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-calendar4-week"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Velit Doloremque</h3>
-                </a>
-                <p>
-                  Cumque et suscipit saepe. Est maiores autem enim facilis ut
-                  aut ipsam corporis aut. Sed animi at autem alias eius labore.
-                </p>
-                <a href="service-details.html" class="stretched-link"></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-
-            <div
-              class="col-lg-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="600"
-            >
-              <div class="service-item position-relative">
-                <div class="icon">
-                  <i class="bi bi-chat-square-text"></i>
-                </div>
-                <a href="service-details.html" class="stretched-link">
-                  <h3>Dolori Architecto</h3>
-                </a>
-                <p>
-                  Hic molestias ea quibusdam eos. Fugiat enim doloremque aut
-                  neque non et debitis iure. Corrupti recusandae ducimus enim.
-                </p>
-                <a href="service-details.html" class="stretched-link"></a>
-              </div>
-            </div>
-            <!-- End Service Item -->
-          </div>
-        </div>
-      </section>
-      <!-- /Services Section -->
-
-      <!-- Portfolio Section -->
-      <section id="portfolio" class="portfolio section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Portfolio</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container">
-          <div
-            class="isotope-layout"
-            data-default-filter="*"
-            data-layout="masonry"
-            data-sort="original-order"
-          >
-            <ul
-              class="portfolio-filters isotope-filters"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-product">Product</li>
-              <li data-filter=".filter-branding">Branding</li>
-              <li data-filter=".filter-books">Books</li>
-            </ul>
-            <!-- End Portfolio Filters -->
-
-            <div
-              class="row gy-4 isotope-container"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/portfolio/app-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>   
-                  <a
-                    href="assets/img/portfolio/app-1.jpg"
-                    title="App 1"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/portfolio/product-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/product-1.jpg"
-                    title="Product 1"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/portfolio/branding-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/branding-1.jpg"
-                    title="Branding 1"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <img
-                  src="assets/img/portfolio/books-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Books 1</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/books-1.jpg"
-                    title="Branding 1"
-                    data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/portfolio/app-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/app-2.jpg"
-                    title="App 2"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/portfolio/product-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/product-2.jpg"
-                    title="Product 2"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/portfolio/branding-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/branding-2.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <img
-                  src="assets/img/portfolio/books-2.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Books 2</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/books-2.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
-              >
-                <img
-                  src="assets/img/portfolio/app-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>App 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/app-3.jpg"
-                    title="App 3"
-                    data-gallery="portfolio-gallery-app"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
-              >
-                <img
-                  src="assets/img/portfolio/product-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Product 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/product-3.jpg"
-                    title="Product 3"
-                    data-gallery="portfolio-gallery-product"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
-              >
-                <img
-                  src="assets/img/portfolio/branding-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Branding 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/branding-3.jpg"
-                    title="Branding 2"
-                    data-gallery="portfolio-gallery-branding"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-
-              <div
-                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
-              >
-                <img
-                  src="assets/img/portfolio/books-3.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="portfolio-info">
-                  <h4>Books 3</h4>
-                  <p>Lorem ipsum, dolor sit amet consectetur</p>
-                  <a
-                    href="assets/img/portfolio/books-3.jpg"
-                    title="Branding 3"
-                    data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"
-                    ><i class="bi bi-zoom-in"></i
-                  ></a>
-                  <a
-                    href="portfolio-details.html"
-                    title="More Details"
-                    class="details-link"
-                    ><i class="bi bi-link-45deg"></i
-                  ></a>
-                </div>
-              </div>
-              <!-- End Portfolio Item -->
-            </div>
-            <!-- End Portfolio Container -->
-          </div>
-        </div>
-      </section>
-      <!-- /Portfolio Section -->
-
-      <!-- Contact Section -->
-      <section id="contact" class="contact section">
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Contact</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
-
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
-          <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
-            <div class="row gy-5">
-              <div class="col-lg-4">
-                <div class="info-item d-flex align-items-center">
-                  <i class="bi bi-geo-alt flex-shrink-0"></i>
-                  <div>
-                    <h3>Address</h3>
-                    <p>Tekdi Ward , Pandhurna</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Info Item -->
-
-              <div class="col-lg-4">
-                <div class="info-item d-flex align-items-center">
-                  <i class="bi bi-telephone flex-shrink-0"></i>
-                  <div>
-                    <h3>Phone</h3>
-                    <p>+91 8878627262</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Info Item -->
-
-              <div class="col-lg-4">
-                <div class="info-item d-flex align-items-center">
-                  <i class="bi bi-envelope flex-shrink-0"></i>
-                  <div>
-                    <h3>Email<br /></h3>
-                    <p>prajwalkamde264@gmail.com</p>
-                  </div>
-                </div>
-              </div>
-              <!-- End Info Item -->
-            </div>
-          </div>
-
-          <form
-            action="forms/contact.php"
-            method="post"
-            class="php-email-form"
-            data-aos="fade-up"
-            data-aos-delay="300"
-          >
-            <div class="row gy-4">
-              <div class="col-md-6">
-                <input
-                  type="text"
-                  name="name"
-                  class="form-control"
-                  placeholder="Your Name"
-                  required=""
-                />
-              </div>
-
-              <div class="col-md-6">
-                <input
-                  type="email"
-                  class="form-control"
-                  name="email"
-                  placeholder="Your Email"
-                  required=""
-                />
-              </div>
-
-              <div class="col-md-12">
-                <input
-                  type="text"
-                  class="form-control"
-                  name="subject"
-                  placeholder="Subject"
-                  required=""
-                />
-              </div>
-
-              <div class="col-md-12">
-                <textarea
-                  class="form-control"
-                  name="message"
-                  rows="6"
-                  placeholder="Message"
-                  required=""
-                ></textarea>
-              </div>
-
-              <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">
-                  Your message has been sent. Thank you!
-                </div>
-
-                <button type="submit">Send Message</button>
-              </div>
-            </div>
-          </form>
-          <!-- End Contact Form -->
-        </div>
-      </section>
-      <!-- /Contact Section -->
-    </main>
-
-    <footer id="footer" class="footer">
       <div class="container">
-        <div class="copyright text-center">
-          <p>
-            © <span>Copyright</span>
-            <strong class="px-1 sitename">Prajwal</strong>
-            <span>All Rights Reserved</span>
-          </p>
-        </div>
-        <div class="social-links d-flex justify-content-center">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-linkedin"></i></a>
-        </div>
-        <div class="credits">
-          Designed by <a href="#">Prajwal</a>
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="gallery-item position-relative">
+              <a href="assets/img/certificates/hackrank_python.png"
+                data-lightbox="gallery" data-title="Python (Basic)">
+
+                <img
+                  src="assets/img/certificates/hackrank_python.png"
+                  alt="Python (Basic)" class="img-fluid" loading="lazy">
+                <div class="label">Python (Basic)</div>
+
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="gallery-item position-relative">
+              <a href="assets/img/certificates/GreateLearningPython_1.png"
+                data-lightbox="gallery" data-title="Python Fundamentals For Beginnerse">
+
+                <img
+                  src="assets/img/certificates/GreateLearningPython_1.png"
+                  alt="Python Fundamentals For Beginnerse" class="img-fluid">
+                <div class="label">Python Fundamentals For Beginnerse</div>
+
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="gallery-item position-relative" data-index="3">
+              <a href="assets/img/certificates/Certificate_Of_Internship.png"
+                data-lightbox="gallery" data-title="Certificate Of Internship">
+
+                <img
+                  src="assets/img/certificates/Certificate_Of_Internship.png"
+                  alt="Certificate Of Internship" class="img-fluid">
+                <div class="label">Certificate Of Internship</div>
+
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="gallery-item position-relative" data-index="4">
+              <a href="assets/img/certificates/Prajwal_Kamde__Python_Full_Stack.png"
+                data-lightbox="gallery" data-title="Python Full Stack, Pentagon Space">
+
+                <img
+                  src="assets/img/certificates/Prajwal_Kamde__Python_Full_Stack.png"
+                  alt="Python Full Stack, Pentagon Space" class="img-fluid">
+                <div class="label">Python Full Stack, Pentagon Space</div>
+
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="gallery-item position-relative" data-index="5">
+              <a href="assets/img/certificates/Paper_Publish_Certificate.png"
+                data-lightbox="gallery" data-title="Certificate Of Publication">
+                <img
+                  src="assets/img/certificates/Paper_Publish_Certificate.png"
+                  alt="Certificate Of Publication" class="img-fluid">
+                <div class="label">Certificate Of Publication</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="gallery-item position-relative" data-index="6">
+              <a href="assets/img/certificates/flipckart_grid_cer.jpg"
+                data-lightbox="gallery" data-title="Certificate Of Participation, Organised By Flipkart">
+                <img
+                  src="assets/img/certificates/flipckart_grid_cer.jpg"
+                  alt="Certificate Of Participation, Organised By Flipkart" class="img-fluid">
+                <div class="label">Certificate Of Participation, Organised By Flipkart</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="gallery-item position-relative" data-index="6">
+              <a href="assets/img/certificates/divacode_certificate.jpg"
+                data-lightbox="gallery" data-title="Certificate Of Participation">
+                <img
+                  src="assets/img/certificates/divacode_certificate.jpg"
+                  alt="Certificate Of Participation" class="img-fluid">
+                <div class="label">Certificate Of Participation</div>
+              </a>
+            </div>
+          </div>
+          <!-- End Gallery Item -->
         </div>
       </div>
-    </footer>
+    </section>
+    <!-- /Gallery Section -->
 
-    <!-- Scroll Top -->
-    <a
-      href="#"
-      id="scroll-top"
-      class="scroll-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
 
-    <!-- Preloader -->
-    <div id="preloader"></div>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>
+          Explore a collection of projects showcasing Prajwal Kamde's expertise in Python, Django, DRF, HTML, CSS, and Bootstrap.
+        </p>
+      </div>
+      <!-- End Section Title -->
 
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/typed.js/typed.umd.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-product">Product</li>
+            <li data-filter=".filter-branding">Branding</li>
+            <li data-filter=".filter-books">Books</li>
+          </ul>
+          <!-- End Portfolio Filters -->
 
-    <!-- Main JS File -->
-    <script src="assets/js/main.js"></script>
-  </body>
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/app-1.jpg" title="App 1" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Product 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/product-1.jpg" title="Product 1" data-gallery="portfolio-gallery-product"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/branding-1.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Branding 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/branding-1.jpg" title="Branding 1"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <img src="assets/img/portfolio/books-1.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Books 1</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/books-1.jpg" title="Branding 1" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-2.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/app-2.jpg" title="App 2" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/product-2.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Product 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/product-2.jpg" title="Product 2" data-gallery="portfolio-gallery-product"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/branding-2.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Branding 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/branding-2.jpg" title="Branding 2"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <img src="assets/img/portfolio/books-2.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Books 2</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/books-2.jpg" title="Branding 2" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/portfolio/app-3.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/app-3.jpg" title="App 3" data-gallery="portfolio-gallery-app"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/portfolio/product-3.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Product 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/product-3.jpg" title="Product 3" data-gallery="portfolio-gallery-product"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <img src="assets/img/portfolio/branding-3.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Branding 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/branding-3.jpg" title="Branding 2"
+                  data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
+                    class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+              <img src="assets/img/portfolio/books-3.jpg" class="img-fluid" alt="" />
+              <div class="portfolio-info">
+                <h4>Books 3</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <a href="assets/img/portfolio/books-3.jpg" title="Branding 3" data-gallery="portfolio-gallery-book"
+                  class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="portfolio-details.html" title="More Details" class="details-link"><i
+                    class="bi bi-link-45deg"></i></a>
+              </div>
+            </div>
+            <!-- End Portfolio Item -->
+          </div>
+          <!-- End Portfolio Container -->
+        </div>
+      </div>
+    </section>
+    <!-- /Portfolio Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>
+          Get in touch with me for any inquiries, collaborations, or project discussions. Fill out the contact form or use the provided contact details to reach out directly.
+        </p>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-5">
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Indore, Madhya Pradesh</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Phone</h3>
+                  <p>+91 8878627262</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+
+            <div class="col-lg-4">
+              <div class="info-item d-flex align-items-center">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email<br /></h3>
+                  <p>prajwalkamde264@gmail.com</p>
+                </div>
+              </div>
+            </div>
+            <!-- End Info Item -->
+          </div>
+        </div>
+
+        <form class="php-email-form" data-aos="fade-up" data-aos-delay="300">
+          <div class="row gy-4">
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="" />
+            </div>
+
+            <div class="col-md-6">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="" />
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="" />
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your message has been sent. Thank you!
+              </div>
+
+              <button type="submit">Send Message</button>
+            </div>
+          </div>
+        </form>
+        <!-- End Contact Form -->
+      </div>
+    </section>
+    <!-- /Contact Section -->
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container">
+      <div class="copyright text-center">
+        <p>
+          © <span>Copyright</span>
+          <strong class="px-1 sitename">Prajwal</strong>
+          <span>All Rights Reserved</span>
+        </p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href=""><i class="bi bi-twitter-x"></i></a>
+        <a href=""><i class="bi bi-facebook"></i></a>
+        <a href=""><i class="bi bi-instagram"></i></a>
+        <a href=""><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        Designed by <a href="#">Prajwal</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
 </html>
